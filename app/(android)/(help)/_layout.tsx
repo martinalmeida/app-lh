@@ -1,4 +1,3 @@
-import "@assets/css/global.css";
 import { Stack } from "expo-router";
 
 export default function Layout() {

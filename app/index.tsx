@@ -1,9 +1,9 @@
-import { Text, View } from "react-native";
+import { useSafeRedirect } from "@hooksC/useSafeRedirect";
 
 export default function Index() {
-  return (
-    <View className="flex-1 items-center justify-center bg-green-500">
-      <Text className="text-xl font-bold text-blue-500">Prueba</Text>
-    </View>
-  );
+  const safeRedirect = useSafeRedirect;
+
+  safeRedirect("/home" as any);
+
+  return null;
 }
