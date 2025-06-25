@@ -13,6 +13,7 @@ module.exports = function (api) {
             "@": "./app",
             "@android": "./app/(android)",
             "@web": "./app/(web)",
+            "@components": "./components",
             "@assets": "./assets",
             "@hooksC": "./hooks/config"
           },

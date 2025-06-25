@@ -1,6 +1,5 @@
-import "@assets/css/global.css";
-import { Stack } from "expo-router";
+import MainProvider from "@components/mainProvider";
 
 export default function Layout() {
-  return <Stack />;
+  return <MainProvider />;
 }
